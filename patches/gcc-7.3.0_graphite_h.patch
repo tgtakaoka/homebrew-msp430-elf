@@ -1,0 +1,11 @@
+--- branches/gcc-7-branch/gcc/graphite.h	2018/08/01 08:06:20	263194
++++ branches/gcc-7-branch/gcc/graphite.h	2018/08/01 08:07:16	263195
+@@ -37,6 +37,8 @@
+ #include <isl/schedule.h>
+ #include <isl/ast_build.h>
+ #include <isl/schedule_node.h>
++#include <isl/id.h>
++#include <isl/space.h>
+ 
+ typedef struct poly_dr *poly_dr_p;
+ 
