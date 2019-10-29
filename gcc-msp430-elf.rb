@@ -1,9 +1,9 @@
 class GccMsp430Elf < Formula
   homepage "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/latest/index_FDS.html"
-  url "https://ftp.gnu.org/gnu/gcc/gcc-8.2.0/gcc-8.2.0.tar.xz"
-  mirror "https://ftpmirror.gnu.org/gcc/gcc-8.2.0/gcc-8.2.0.tar.xz"
-  sha256 "196c3c04ba2613f893283977e6011b2345d1cd1af9abeac58e916b1aab3e0080"
-  version "8.2.0-52"
+  url "https://ftp.gnu.org/gnu/gcc/gcc-8.3.0/gcc-8.3.0.tar.xz"
+  mirror "https://ftpmirror.gnu.org/gcc/gcc-8.3.0/gcc-8.3.0.tar.xz"
+  sha256 "64baadfe6cc0f4947a84cb12d7f0dfaf45bb58b7e92461639596c21e02d97d2c"
+  version "8.3.0-16"
   revision 1
 
   depends_on "binutils-msp430-elf"
@@ -14,13 +14,9 @@ class GccMsp430Elf < Formula
   depends_on "isl" => :build if OS.mac?
 
   patch :p0 do
-    url "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/8_2_0_0/exports/msp430-gcc-8.2.0.52-source-patches.tar.bz2"
-    sha256 "ba01b52163924ee6376abd75be948375fd049fc878e8e5aed67917f5d95ec85b"
-    apply "gcc-8_2_0-release.patch"
-  end
-  patch :p2 do
-    url "https://raw.githubusercontent.com/tgtakaoka/homebrew-msp430-elf/master/patches/gcc-7.3.0_graphite_h.patch"
-    sha256 "e8b716f765bcc6ecd8cc5b1ac037a0a79fff2a7ba50e804479c010dc2b12b9f3"
+    url "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/8_3_0_0/exports/msp430-gcc-8.3.0.16-source-patches.tar.bz2"
+    sha256 "2732abaf76e1da9e224b25d442c2f764c487087603ae1d954d6e980e48f37af7"
+    apply "gcc-8_3_0-release.patch"
   end
 
   resource "newlib" do
@@ -28,8 +24,8 @@ class GccMsp430Elf < Formula
     sha256 "545b3d235e350d2c61491df8b9f775b1b972f191380db8f52ec0b1c829c52706"
 
     patch :p0 do
-      url "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/8_2_0_0/exports/msp430-gcc-8.2.0.52-source-patches.tar.bz2"
-      sha256 "ba01b52163924ee6376abd75be948375fd049fc878e8e5aed67917f5d95ec85b"
+      url "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/8_3_0_0/exports/msp430-gcc-8.3.0.16-source-patches.tar.bz2"
+      sha256 "2732abaf76e1da9e224b25d442c2f764c487087603ae1d954d6e980e48f37af7"
       apply "newlib-2_4_0.patch"
     end
   end
