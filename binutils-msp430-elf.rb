@@ -2,12 +2,12 @@ class BinutilsMsp430Elf < Formula
   homepage "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/latest/index_FDS.html"
   url "https://ftpmirror.gnu.org/binutils/binutils-2.26.tar.bz2"
   sha256 "c2ace41809542f5237afc7e3b8f32bb92bc7bc53c6232a84463c423b0714ecd9"
-  version "2.26-16"
+  version "2.26-25"
   revision 1
 
   patch :p0 do
-    url "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/8_3_0_0/exports/msp430-gcc-8.3.0.16-source-patches.tar.bz2"
-    sha256 "2732abaf76e1da9e224b25d442c2f764c487087603ae1d954d6e980e48f37af7"
+    url "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/8_3_1_0/export/msp430-gcc-8.3.1.25-source-patches.tar.bz2"
+    sha256 "a100f09f45c27f2c272718c5f3a90c00e3039fa6560ccc054ad5449d470054fa"
     apply "binutils-2_26.patch"
   end
 
