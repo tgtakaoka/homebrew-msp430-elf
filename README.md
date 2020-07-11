@@ -13,15 +13,15 @@ To get everything, execute the following commands.
 
 You may want to install `mspdebug-head` by the following commands.
 
-    $ brew tap tgtakaoka/tinyos-msp430
+    $ brew tap tgtakaoka/mspdebug-mspds
     $ brew install --HEAD mspdebug-head
 
 For Linux, the following packages are necessary to compile these formulae.
 
-  * libgmp-dev
-  * libmpfr-dev
-  * libmpc-dev
-  * libisl-dev
+  * `libgmp-dev`
+  * `libmpfr-dev`
+  * `libmpc-dev`
+  * `libisl-dev`
 
 Version:
 
