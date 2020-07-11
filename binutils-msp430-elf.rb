@@ -1,14 +1,15 @@
 class BinutilsMsp430Elf < Formula
   homepage "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/latest/index_FDS.html"
-  url "https://ftpmirror.gnu.org/binutils/binutils-2.26.tar.bz2"
-  sha256 "c2ace41809542f5237afc7e3b8f32bb92bc7bc53c6232a84463c423b0714ecd9"
-  version "2.26-25"
+  url "https://ftp.gnu.org/gnu/binutils/binutils-2.34.tar.bz2"
+  mirror "https://ftpmirror.gnu.org/binutils/binutils-2.34.tar.bz2"
+  sha256 "89f010078b6cf69c23c27897d686055ab89b198dddf819efb0a4f2c38a0b36e6"
+  version "2.34-50"
   revision 1
 
   patch :p0 do
-    url "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/8_3_2_2/export/msp430-gcc-8.3.1.25-source-patches.tar.bz2"
-    sha256 ""
-    apply "binutils-2_26.patch"
+    url "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_2_0_0/export/msp430-gcc-9.2.0.50-source-patches.tar.bz2"
+    sha256 "0756421396b5806bf3ac07d78a80ab999b82ead71cb3370a601c628f7bf1d3d3"
+    apply "binutils-2_34.patch"
   end
 
   def install

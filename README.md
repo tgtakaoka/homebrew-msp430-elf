@@ -16,15 +16,22 @@ You may want to install `mspdebug-head` by the following commands.
     $ brew tap tgtakaoka/tinyos-msp430
     $ brew install --HEAD mspdebug-head
 
+For Linux, the following packages are necessary to compile these formulae.
+
+  * libgmp-dev
+  * libmpfr-dev
+  * libmpc-dev
+  * libisl-dev
+
 Version:
 
-    MSP430-GCC 8_3_1_0 (msp430-gcc-3.2.1.25-source-patches)
-      binutils-msp430-elf-2.26-25_1
-      gcc-msp430-elf-8.3.0-25_1
+    MSP430-GCC 9_2_0_0 (msp430-gcc-9.2.0.50-source-patches)
+      binutils-msp430-elf-2.34-50_1
+      gcc-msp430-elf-9.2.0-50_1
       newlib-2.4.0
-      gdb-msp430-8.1-16_1
-    msp430-gcc-support-files-1.208
-      headers-msp430-elf-1.208_1
+      gdb-msp430-9.1-50_1
+    msp430-gcc-support-files-1.210
+      headers-msp430-elf-1.210_1
 
 [Homebrew]: https://brew.sh/
 [TI MSP430-GCC]: http://www.ti.com/tool/MSP430-GCC-OPENSOURCE
