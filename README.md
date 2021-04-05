@@ -25,13 +25,13 @@ For Linux, the following packages are necessary to compile these formulae.
 
 Version:
 
-    MSP430-GCC 9_2_0_0 (msp430-gcc-9.2.0.50-source-patches)
-      binutils-msp430-elf-2.34-50_1
-      gcc-msp430-elf-9.2.0-50_1
+    MSP430-GCC 9.3.1.11
+      binutils-msp430-elf-2.34-50_2
+      gcc-msp430-elf-9.3.1-11_1
       newlib-2.4.0
-      gdb-msp430-9.1-50_1
-    msp430-gcc-support-files-1.210
-      headers-msp430-elf-1.210_1
+      gdb-msp430-9.1-50_2
+    msp430-gcc-support-files-1.211
+      headers-msp430-elf-1.211_1
 
 [Homebrew]: https://brew.sh/
 [TI MSP430-GCC]: http://www.ti.com/tool/MSP430-GCC-OPENSOURCE
