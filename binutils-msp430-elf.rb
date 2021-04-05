@@ -4,11 +4,11 @@ class BinutilsMsp430Elf < Formula
   mirror "https://ftpmirror.gnu.org/binutils/binutils-2.34.tar.bz2"
   sha256 "89f010078b6cf69c23c27897d686055ab89b198dddf819efb0a4f2c38a0b36e6"
   version "2.34-50"
-  revision 1
+  revision 2
 
   patch :p0 do
-    url "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_2_0_0/export/msp430-gcc-9.2.0.50-source-patches.tar.bz2"
-    sha256 "0756421396b5806bf3ac07d78a80ab999b82ead71cb3370a601c628f7bf1d3d3"
+    url "https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_3_1_1/export/msp430-gcc-9.3.1.11-source-patches.tar.bz2"
+    sha256 "ec6472b034e11e8cfdeb3934b218e5bafbb7a03f3afc0e76536bd9c42653525b"
     apply "binutils-2_34.patch"
   end
 
