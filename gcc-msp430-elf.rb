@@ -14,7 +14,7 @@ class GccMsp430Elf < Formula
   depends_on "isl" => :build if OS.mac?
 
   patch :p0 do
-    url "https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_3_1_1/export/msp430-gcc-9.3.1.11-source-patches.tar.bz2"
+    url "https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_3_1_2/export/msp430-gcc-9.3.1.11-source-patches.tar.bz2"
     sha256 "ec6472b034e11e8cfdeb3934b218e5bafbb7a03f3afc0e76536bd9c42653525b"
     apply "gcc-9.3.0.patch"
   end
@@ -24,7 +24,7 @@ class GccMsp430Elf < Formula
     sha256 "545b3d235e350d2c61491df8b9f775b1b972f191380db8f52ec0b1c829c52706"
 
     patch :p0 do
-      url "https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_3_1_1/export/msp430-gcc-9.3.1.11-source-patches.tar.bz2"
+      url "https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_3_1_2/export/msp430-gcc-9.3.1.11-source-patches.tar.bz2"
       sha256 "ec6472b034e11e8cfdeb3934b218e5bafbb7a03f3afc0e76536bd9c42653525b"
       apply "newlib-2_4_0.patch"
     end
