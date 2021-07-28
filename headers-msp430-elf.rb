@@ -1,7 +1,7 @@
 class HeadersMsp430Elf < Formula
   homepage "http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/latest/index_FDS.html"
-  url "https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_3_1_1/export/msp430-gcc-support-files-1.211.zip"
-  sha256 "07589fb72192d47adf3b5f7e25271e8834a82ebc404e26c678044be29c026351"
+  url "https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_3_1_2/export/msp430-gcc-support-files-1.212.zip"
+  sha256 "3b1a39f10a344dfefb767e60ac35becef4c065013be86993195b138a5fb0b8d6"
   revision 1
 
   def install

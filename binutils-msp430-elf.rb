@@ -7,7 +7,7 @@ class BinutilsMsp430Elf < Formula
   revision 2
 
   patch :p0 do
-    url "https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_3_1_1/export/msp430-gcc-9.3.1.11-source-patches.tar.bz2"
+    url "https://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSPGCC/9_3_1_2/export/msp430-gcc-9.3.1.11-source-patches.tar.bz2"
     sha256 "ec6472b034e11e8cfdeb3934b218e5bafbb7a03f3afc0e76536bd9c42653525b"
     apply "binutils-2_34.patch"
   end
