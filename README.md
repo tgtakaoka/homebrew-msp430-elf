@@ -22,6 +22,8 @@ For Linux, the following packages are necessary to compile these formulae.
   * `libmpfr-dev`
   * `libmpc-dev`
   * `libisl-dev`
+  * `zlib1g-dev`
+  * `texinfo`
 
 Version:
 
